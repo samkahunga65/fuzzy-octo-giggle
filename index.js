@@ -8,7 +8,7 @@ const io = new Server(httpServer, {
     methods: ["GET", "POST"]
   }
 });
-
+console.log('conns');
 io.on("connection", (socket) => {
   console.log('conn');
   socket.on('qq', ()=>{
