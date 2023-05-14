@@ -1,0 +1,16 @@
+{
+  "name": "test-render",
+  "version": "1.0.0",
+  "description": "",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "dev": "node index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "socket.io": "^4.6.1"
+  }
+}
