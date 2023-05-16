@@ -3,7 +3,7 @@ const express = require("express");
 const app = express();
 const server = require("http").createServer(app);
 const io = require("socket.io")(server);
-  console.log("connected")
+  console.log("on")
 
 io.on("connection", socket => {
   console.log("connected")
